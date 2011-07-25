@@ -1,0 +1,9 @@
+The Phruts project is a PHP5 port of the popular Apache Struts MVC framework. This effort has been going over many years, dating back to earlier projects of PHPMVC. Please see the file headers for more information about the authors. Aloi has branched the development to continue implementation of the framework's features to get it to support Struts 1.3 features. 
+
+Phruts provides an approach to MVC for Aloi. 
+
+Notes:
+- Phruts is an MVC framework. It is a configuration based framework and provides a fine grained configuration of controller behaviour through an XML file. This can be configured to control application flow and forwarding, controller action mapping, exception handling, form bean configuration, plug-ins, datasources and the like
+- Phruts uses an inheritance approach in it's controllers. Future versions may remove this dependency completely and opt for a reflection method (preferred)
+
+
